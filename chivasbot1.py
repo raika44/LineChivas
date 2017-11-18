@@ -1380,20 +1380,20 @@ def bot(op):
 					else:
 						cl.sendText(msg.to,"Please turn on the name clock")
 
-	     elif msg.text == "$set":
-		     cl.sendText(msg.to, "Check sider")
-		     ki.sendText(msg.to, "Check sider")
-	             kk.sendText(msg.to, "Check sider")
-	             kc.sendText(msg.to, "Check sider")
-	             try:
-			 del wait2['readPoint'][msg.to]
-			 del wait2['readMember'][msg.to]
-		     except:
-			 pass
-		     wait2['readPoint'][msg.to] = msg.id
-		     wait2['readMember'][msg.to] = ""
-		     wait2['ROM'][msg.to] = {}
-		     print wait2
+            elif msg.text == "$set":
+                    cl.sendText(msg.to, "Check sider")
+                    ki.sendText(msg.to, "Check sider")
+                    kk.sendText(msg.to, "Check sider")
+                    kc.sendText(msg.to, "Check sider")
+                    try:
+                        del wait2['readPoint'][msg.to]
+                        del wait2['readMember'][msg.to]
+                    except:
+                        pass
+                    wait2['readPoint'][msg.to] = msg.id
+                    wait2['readMember'][msg.to] = ""
+                    wait2['ROM'][msg.to] = {}
+                    print wait2
             elif msg.text == "$read":
 		 if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
