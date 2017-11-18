@@ -640,7 +640,7 @@ def bot(op):
 								cl.sendText(msg.to,"Sorry, nobody absent")
 					else:
 						if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Can not be used outside the group")
+                       					 cl.sendText(msg.to,"Can not be used outside the group")
 						else:
 							cl.sendText(msg.to,"Not for use less than group")
             elif msg.text in ["Cv cancel","Bot cancel"]:
