@@ -1184,7 +1184,7 @@ def bot(op):
                 else:
                     cl.sendText(msg.to,str(i) + "åˆ é™¤äº†äº‹çš„ç›¸å†Œã€‚")
             elif msg.text in ["è‡ªå‹•è¿½åŠ :ã‚ªãƒ³","Add on","Auto add:on","è‡ªå‹•è¿½åŠ ï¼šé–‹"]:
-				if msg from_ in admin:
+				if msg.from_ in admin:
 					if wait["autoAdd"] == True:
 						if wait["lang"] == "JP":
 							cl.sendText(msg.to,"already on")
@@ -1197,7 +1197,7 @@ def bot(op):
 						else:
 							cl.sendText(msg.to,"è¦äº†å¼€ã€‚")
             elif msg.text in ["è‡ªå‹•è¿½åŠ :ã‚ªãƒ•","Add off","Auto add:off","è‡ªå‹•è¿½åŠ ï¼šé—œ"]:
-				if msg from_ in admin:
+				if msg.from_ in admin:
 					if wait["autoAdd"] == False:
 						if wait["lang"] == "JP":
 							cl.sendText(msg.to,"already off")
