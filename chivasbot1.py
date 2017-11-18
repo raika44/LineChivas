@@ -829,105 +829,95 @@ def bot(op):
             elif "Cv3 mid" == msg.text:
 				if msg.from_ in admin:
 					kc.sendText(msg.to,Cmid)
-            elif msg.text in ["Wkwk"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "100",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+elif msg.text in ["Wkwk"]:
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "100",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["Hehehe"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "10",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "10",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["Galon"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "9",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "9",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["You"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "7",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "7",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["Hadeuh"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "6",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "6",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["Please"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = none
-					msg.contentMetadata = {
-										"STKID": "4",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "4",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["Haaa"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "3",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "3",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["Lol"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "110",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "110",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["Hmmm"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "101",
-										"STKPKGID": "1",
-										"STKVER": "100" }
-					ki.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "101",
+                                     "STKPKGID": "1",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
             elif msg.text in ["Welcome"]:
-				if msg.from_ in admin:
-					msg.contentType = 7
-					msg.text = None
-					msg.contentMetadata = {
-										"STKID": "247",
-										"STKPKGID": "3",
-										 "STKVER": "100" }
-					ki.sendMessage(msg)
-					kk.sendMessage(msg)
+                msg.contentType = 7
+                msg.text = None
+                msg.contentMetadata = {
+                                     "STKID": "247",
+                                     "STKPKGID": "3",
+                                     "STKVER": "100" }
+                ki.sendMessage(msg)
+                kk.sendMessage(msg)
             elif msg.text in ["TL:"]:
 				if msg.from_ in admin:
 					tl_text = msg.text.replace("TL:","")
