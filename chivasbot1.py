@@ -882,7 +882,7 @@ def bot(op):
             elif msg.text in ["Please"]:
 				if msg.from_ in admin:
 					msg.contentType = 7
-					msg.text = Bantuin tuh
+					msg.text = none
 					msg.contentMetadata = {
 										"STKID": "4",
 										"STKPKGID": "1",
