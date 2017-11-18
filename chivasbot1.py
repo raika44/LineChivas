@@ -829,7 +829,7 @@ def bot(op):
             elif "Cv3 mid" == msg.text:
 				if msg.from_ in admin:
 					kc.sendText(msg.to,Cmid)
-elif msg.text in ["Wkwk"]:
+	    elif msg.text in ["Wkwk"]:
                 msg.contentType = 7
                 msg.text = None
                 msg.contentMetadata = {
