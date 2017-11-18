@@ -590,42 +590,42 @@ def bot(op):
 					msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
 										'PRDTYPE': 'THEME',
 										'MSGTPL': '5'}
-                msg.text = None
-                cl.sendMessage(msg)
+					msg.text = None
+					cl.sendMessage(msg)
             elif msg.text in ["æ„›ã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Cv1 gift"]:
 				if msg.from_ in admin:
 					msg.contentType = 9
 					msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
 										'PRDTYPE': 'THEME',
 										'MSGTPL': '6'}
-                msg.text = None
-                ki.sendMessage(msg)
+					msg.text = None
+					ki.sendMessage(msg)
             elif msg.text in ["æ„›ã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Cv2 gift"]:
 				if msg.from_ in admin:
 					msg.contentType = 9
 					msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
 										'PRDTYPE': 'THEME',
 										'MSGTPL': '8'}
-                msg.text = None
-                kk.sendMessage(msg)
+					msg.text = None
+					kk.sendMessage(msg)
             elif msg.text in ["æ„›ã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Cv3 gift"]:
 				if msg.from_ in admin:
 					msg.contentType = 9
 					msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
 										'PRDTYPE': 'THEME',
 										'MSGTPL': '10'}
-                msg.text = None
-                kc.sendMessage(msg)
+					msg.text = None
+					kc.sendMessage(msg)
             elif msg.text in ["æ„›ã®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","All gift"]:
 				if msg.from_ in admin:
 					msg.contentType = 9
 					msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
 										'PRDTYPE': 'THEME',
 										'MSGTPL': '12'}
-                msg.text = None
-                ki.sendMessage(msg)
-                kk.sendMessage(msg)
-                kc.sendMessage(msg)
+					msg.text = None
+					ki.sendMessage(msg)
+					kk.sendMessage(msg)
+					kc.sendMessage(msg)
             elif msg.text in ["cancel","Cancel"]:
 				if msg.from_ in admin:
 					if msg.toType == 2:
