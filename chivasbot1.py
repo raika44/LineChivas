@@ -1711,7 +1711,7 @@ def bot(op):
 					kk.sendText(msg.to,"Hinata pekok 􀜁􀅔Har Har􏿿")
 					kc.sendText(msg.to,"Hinata pekok 􀜁􀅔Har Har􏿿")
             elif msg.text in ["Cv say didik pekok"]:
-				if msg.from_ in admin::
+				if msg.from_ in admin:
 					ki.sendText(msg.to,"Didik pekok 􀜁􀅔Har Har􏿿")
 					kk.sendText(msg.to,"Didik pekok 􀜁􀅔Har Har􏿿")
 					kc.sendText(msg.to,"Didik pekok 􀜁􀅔Har Har􏿿")
